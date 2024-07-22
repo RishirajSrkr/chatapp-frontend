@@ -64,15 +64,11 @@ function Chat() {
         else if ('text' in messageData) {
             //if messageData contains 'text'
 
-            if (messageData.sender === selectedUserId) {
-                setMessages((prev) => {
-                    return [...prev, {
-                        ...messageData
-                    }]
-                })
-            }
-
-
+            setMessages((prev) => {
+                return [...prev, {
+                    ...messageData
+                }]
+            })
 
         }
     }
