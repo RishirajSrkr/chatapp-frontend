@@ -1,8 +1,11 @@
-# React + Vite
+**Overview**
+This Real-Time Chat Application allows users to send and receive messages in real-time. Authenticated users can share both text and image messages through a seamless and interactive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Features**
+Real-Time Messaging: Instant text and image message exchange using WebSockets. User Authentication: Secure login and registration using JWT Authentication. Password Security: Passwords are hashed with Bcrypt for enhanced security.
 
-Currently, two official plugins are available:
+**Tech Stack**
+Frontend: React JS Backend: NodeJS, Express Database: MongoDB Real-Time Communication: WebSockets Authentication: JWT Password Hashing: Bcrypt
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Backend code**
+https://github.com/RishirajSrkr/chatapp-backend
